@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+#drawn-question, #participant, #result, #scores {
+    margin: 20px 0;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+select, input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+#answer-section {
+    display: none;
+}
